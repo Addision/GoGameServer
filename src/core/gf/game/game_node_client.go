@@ -1,0 +1,2 @@
+// gameserver client
+package game

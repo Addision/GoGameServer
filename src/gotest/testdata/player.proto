@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message playerData
+{
+    roleInfo roleInfo = 1;
+}
+
+message roleInfo
+{
+    string name = 1;
+    int32 age = 2;
+    map<int32, string> states = 3;
+    int32 fixcode = 4;
+    string temp = 6;
+}
